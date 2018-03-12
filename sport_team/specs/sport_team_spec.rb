@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative '../classes'
 
-class CodeclanStudentTests < MiniTest::Test
+class SportTeamTests < MiniTest::Test
   def setup
   end
 
