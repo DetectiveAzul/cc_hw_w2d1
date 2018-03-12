@@ -1,6 +1,6 @@
 # Classes Lab / Homework
 
-In this lab, we'd like you to make some classes of your own. Below we've outlined a few scenarios to be modelled as Classes. Throughout each part stick to using our Test Driven Development process of writing our tests first then writing our methods and refactoring until they pass.
+In this lab, we'd like you to make some classes of your own. Below we've outlined a few scenarios to be modeled as Classes. Throughout each part stick to using our Test Driven Development process of writing our tests first then writing our methods and refactoring until they pass.
 
 ## Learning Objectives
 
@@ -13,7 +13,7 @@ In this lab, we'd like you to make some classes of your own. Below we've outline
 
 ### Part A
 
-For this part we want you to make a class that represents a CodeClan student. 
+For this part we want you to make a class that represents a CodeClan student.
 
 * Create a Class called Student that takes in a name (String) and a cohort (integer) when an new instance is created.
 * Create a couple of Getter methods, one that returns the name property and one that returns the cohort property of the student.
@@ -29,7 +29,7 @@ Now we would like you to make a class that represents a sports team.
 * Make a class to represent a Team that has the properties Team name (String), Players (Array of strings) and a Coach (String).
 * For each property in the class make a Getter method than can return them.
 * Create a setter method to allow the coach's name to be updated.
-* Refactor the class to use `attr_reader` or `attr_accessor` instead of your own getter and setter methods. 
+* Refactor the class to use `attr_reader` or `attr_accessor` instead of your own getter and setter methods.
 * Create a method that adds a new player to the player's array.
 * Add a method that takes in a string of a player's name and checks to see if they are in the players array.
 * Add a points property into your class that starts at 0.
@@ -44,10 +44,10 @@ Model a Library as a class.
 This should look something like:
 
 ```ruby
-  { 
+  {
     title: "lord_of_the_rings",
-    rental_details: { 
-     student_name: "Jeff", 
+    rental_details: {
+     student_name: "Jeff",
      date: "01/12/16"
     }
   }
@@ -57,6 +57,6 @@ This should look something like:
 
 * Create a getter for the books
 * Create a method that takes in a book title and returns all of the information about that book.
-* Create a method that takes in a book title and returns only the rental details for that book. 
+* Create a method that takes in a book title and returns only the rental details for that book.
 * Create a method that takes in a book title and adds it to our book list (Add a new hash for the book with the student name and date being left as empty strings)
-* Create a method that changes the rental details of a book by taking in the title of the book, the student renting it and the date it's due to be returned. 
+* Create a method that changes the rental details of a book by taking in the title of the book, the student renting it and the date it's due to be returned.
