@@ -8,8 +8,8 @@ In this lab, we'd like you to make some classes of your own. Below we've outline
 2. Create multiple objects
 3. Add some properties
 4. Use accessors
-5. Add some methods and behaviours
-6. Get methods and behaviours to interact with properties
+5. Add some methods and behaviors
+6. Get methods and behaviors to interact with properties
 
 ### Part A
 
@@ -19,7 +19,7 @@ For this part we want you to make a class that represents a CodeClan student.
 * Create a couple of Getter methods, one that returns the name property and one that returns the cohort property of the student.
 * Add in Setter methods to update the students name and what cohort they are in.
 * Create a method that gets the student to talk (eg. Returns "I can talk!).
-* Create a method that takes in a students favourite programming language and returns it as part of a string (eg. `student1.say_favourite_language("Ruby")` -> "I love Ruby").
+* Create a method that takes in a students favorite programming language and returns it as part of a string (eg. `student1.say_favourite_language("Ruby")` -> "I love Ruby").
 
 
 ### Part B
