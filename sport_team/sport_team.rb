@@ -16,7 +16,6 @@ class SportTeam
 
   def has_player?(player_name)
     return @players.include?(player_name)
-    return false
   end
 
   def update_points(match_result)
