@@ -13,7 +13,7 @@ class Library
 
   def get_book_rental_details_by_title(book_title)
     book = get_book_information_by_title(book_title)
-    return book[:rental_details]
+    return book[:rental_details] if book != nil
   end
 
   def add_book(new_book)

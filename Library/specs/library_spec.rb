@@ -73,6 +73,12 @@ class LibraryTests < MiniTest::Test
     assert_equal(expected,result)
   end
 
+  def test_get_book_rental_details_by_title__not_found()
+    result = @tollcross.get_book_rental_details_by_title("bananas")
+    expected = nil
+    assert_nil(result)
+  end
+
   def test_add_book()
     @tollcross.add_book("learn_java")
     expected = {
