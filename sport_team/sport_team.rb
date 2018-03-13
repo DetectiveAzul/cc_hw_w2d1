@@ -14,8 +14,8 @@ class SportTeam
     @players.push(new_player)
   end
 
-  def find_player_by_name(player_name)
-    return true if @players.include?(player_name)
+  def has_player?(player_name)
+    return @players.include?(player_name)
     return false
   end
 

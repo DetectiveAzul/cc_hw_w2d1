@@ -35,12 +35,12 @@ class SportTeamTests < MiniTest::Test
   end
 
   def test_find_player_by_name__returns_true()
-    result = @real_madrid.find_player_by_name("Butragueño")
+    result = @real_madrid.has_player?("Butragueño")
     assert_equal(true,result)
   end
 
   def test_find_player_by_name__returns_false()
-    result = @turbo.find_player_by_name("Jaime Lopez")
+    result = @turbo.has_player?("Jaime Lopez")
     assert_equal(false,result)
   end
 
